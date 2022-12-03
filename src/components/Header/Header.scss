@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 8px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+    margin-bottom: 25px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header__logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
+
+.header-desc {
+    margin-left: 15px;
+
+    h1 {
+        font-size: 24px;
+    }
+}

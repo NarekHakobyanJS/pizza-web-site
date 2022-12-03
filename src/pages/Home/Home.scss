@@ -1,0 +1,15 @@
+.content__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 30px;
+}
+
+.contentTop{
+    padding: 8px 20px;
+}
+
+.content__title{
+    padding: 8px 15px;
+}

@@ -1,0 +1,28 @@
+.button{
+    background: orange;
+    padding: 0 8px;
+    width: 90px;
+    border : none;
+    border-radius: 15px;
+    cursor: pointer;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.button-cart{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    justify-content: space-between;
+    p{
+        margin-right: 5px;
+        padding-right: 5px;
+        border-right: 1px solid black;
+    }
+    svg{
+        font-size: 19px;
+    }
+}
